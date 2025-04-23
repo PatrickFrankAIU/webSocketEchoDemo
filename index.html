@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Chat Demo</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>WebSocket Chat Demo</h1>
+    
+    <div class="controls">
+        <button id="connect-btn">Connect</button>
+        <button id="disconnect-btn" disabled>Disconnect</button>
+        <span id="connection-status" class="disconnected">Disconnected</span>
+    </div>
+    
+    <div class="status" id="status-message">Not connected to server.</div>
+    
+    <div id="chat-container"></div>
+    
+    <form id="message-form">
+        <input type="text" id="message-input" placeholder="Type a message..." disabled>
+        <button type="submit" id="send-btn" disabled>Send</button>
+    </form>
+    
+    
+</body>
+</html>
