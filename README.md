@@ -5,3 +5,4 @@ This is just a simple front-end connecting to the org's "Echo" demonstrator at w
 Patrick Frank, Instructor
 
 Pages Hosting URL:
+https://patrickfrankaiu.github.io/webSocketEchoDemo/
