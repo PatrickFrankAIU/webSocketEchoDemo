@@ -13,8 +13,8 @@ let socket = null;
 
 // Connect to WebSocket server
 function connectWebSocket() {
-    // Using a free echo WebSocket server for demo purposes
-    // For production, you would use your own WebSocket server
+    // Using a free echo WebSocket server for this demo 
+    // Normally you would make your own WebSocket server with Node.js
     socket = new WebSocket('wss://echo.websocket.org');
     
     // Connection opened
